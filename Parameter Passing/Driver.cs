@@ -40,8 +40,6 @@ namespace Parameter_Passing
 
             Console.WriteLine($"Minmum:{min}");
             Console.WriteLine($"Maximum:{max}");
-
-
         }
     }
 }
