@@ -13,14 +13,10 @@ namespace Library
         private string author; 
         private bool available; 
  
-        public Book(string title, string author, bool available)
+        public Book(string title, string author, bool available):this(title)
         { 
-            this.title = title;
             this.author = author;   
             this.available = available;
-            Console.WriteLine(this.title);
-            Console.WriteLine(this.author);
-            Console.WriteLine(this.available);
         }
         public Book(string title, string author):this(title, author, true)
         {
@@ -28,16 +24,20 @@ namespace Library
         public Book(string title)
         {
             this.title = title;
-            Console.WriteLine(this.title);
         }
         public Book()
         {
             title = "untitled";
             author = "anonymous";
             available = true;
+        }
+        public void display()
+        {
             Console.WriteLine(title);
-            Console.WriteLine(author);
+            if(author!=null)
+                Console.WriteLine(author);
             Console.WriteLine(available);
+            Console.WriteLine();    
         }
     }
 }

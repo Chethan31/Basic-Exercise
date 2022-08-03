@@ -11,9 +11,13 @@ namespace Library
         public static void Main()
         {
             Book book1 = new Book("asa","asas",true);
+            book1.display();
             Book book2 = new Book("dsdas", "dssfsd");
+            book2.display();
             Book book3 = new Book("asa");
+            book3.display();
             Book book4 = new Book();
+            book4.display();
         }
     }
 }
