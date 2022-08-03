@@ -11,15 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multidimenstional Array", "Multidimenstional Array\Multidimenstional Array.csproj", "{1F616F3C-4B36-403E-BB28-2057869B729E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Point", "Point\Point.csproj", "{EF67DC96-ED7F-417F-BC50-BB2D1EA907B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Point", "Point\Point.csproj", "{EF67DC96-ED7F-417F-BC50-BB2D1EA907B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parameter Passing", "Parameter Passing\Parameter Passing.csproj", "{8B899826-E45A-45D9-AD9C-E210A5FDF50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parameter Passing", "Parameter Passing\Parameter Passing.csproj", "{8B899826-E45A-45D9-AD9C-E210A5FDF50D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable length parameter list", "Variable length parameter list\Variable length parameter list.csproj", "{885EBA1C-8025-4447-93FE-5CFEF4ABB708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable length parameter list", "Variable length parameter list\Variable length parameter list.csproj", "{885EBA1C-8025-4447-93FE-5CFEF4ABB708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{A68C2FAB-4A59-48F4-BEA7-A3C27FE8154E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{A68C2FAB-4A59-48F4-BEA7-A3C27FE8154E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{5FA45403-0FA0-42B5-A33A-64FF0091F501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student", "Student\Student.csproj", "{5FA45403-0FA0-42B5-A33A-64FF0091F501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static Method", "Static Method\Static Method.csproj", "{6DB7F828-5188-4CD8-9A68-D0829EBAF3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hive", "Hive\Hive.csproj", "{DF5F0DB8-6372-40A5-824D-E24F70E08993}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{5FA45403-0FA0-42B5-A33A-64FF0091F501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FA45403-0FA0-42B5-A33A-64FF0091F501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FA45403-0FA0-42B5-A33A-64FF0091F501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB7F828-5188-4CD8-9A68-D0829EBAF3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB7F828-5188-4CD8-9A68-D0829EBAF3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB7F828-5188-4CD8-9A68-D0829EBAF3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB7F828-5188-4CD8-9A68-D0829EBAF3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5F0DB8-6372-40A5-824D-E24F70E08993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5F0DB8-6372-40A5-824D-E24F70E08993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5F0DB8-6372-40A5-824D-E24F70E08993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5F0DB8-6372-40A5-824D-E24F70E08993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
